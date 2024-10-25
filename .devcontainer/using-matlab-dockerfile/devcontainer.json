@@ -6,7 +6,7 @@
         "args": {
             "MATLAB_RELEASE": "r2024b",
             "MATLAB_PRODUCT_LIST": "MATLAB"
-        }
+        }        
     },
     "hostRequirements": {
         "cpus": 4
@@ -26,7 +26,7 @@
     "customizations": {
     "vscode": {
         "extensions": [
-            "${containerWorkspaceFolder}/.devcontainer/using-matlab-dockerfile/matlab-extension.vsix"
+            "${containerWorkspaceFolder}/.devcontainer/using-matlab-dockerfile/language-matlab-1.2.7.vsix"
         ],
         "settings": {
             "MATLAB.indexWorkspace": true,
